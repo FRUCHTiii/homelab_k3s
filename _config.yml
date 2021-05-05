@@ -1,5 +1,14 @@
 # Site settings
 title: "K3s Homelab by FRUCHTiii"
+description: "Documentation how I setup my homlab using K3s"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
-search_enabled: false
+
+aux_links:
+  "View on GitHub":
+    - "//github.com/FRUCHTiii/homelab_k3s"
+
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+ga_tracking: G-P622X0WMMQ
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
