@@ -1,0 +1,15 @@
+# Site settings
+title: K3s Homelab by FRUCHTiii
+description: Documentation how I setup my homlab using K3s
+baseurl: "/homelab_k3s"
+url: https://fruchtiii.github.io
+
+#Theme
+remote_theme: pmarsceill/just-the-docs
+color_scheme: dark
+
+aux_links:
+  "View on GitHub":
+    - "//github.com/FRUCHTiii/homelab_k3s"
+
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md"]
