@@ -1,9 +1,9 @@
 ---
 title: Update K3s
-permalink: /ops/update/
+permalink: /ops/update_k3s/
 has_children: false
 parent: Operational Tasks
-nav_order: 51
+nav_order: 52
 ---
 
 # Update K3s
