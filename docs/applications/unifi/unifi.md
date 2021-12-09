@@ -3,7 +3,7 @@ title: Unfifi Controller
 permalink: /applications/unifi/
 has_children: false
 parent: Homelab Applications
-nav_order: 59
+nav_order: 69
 ---
 
 # Add AP to new controller
