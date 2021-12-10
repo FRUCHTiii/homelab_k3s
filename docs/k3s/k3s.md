@@ -30,7 +30,7 @@ k3sup install \
   --local-path /dev/null \
   --context k3s \
   --k3s-extra-args '--disable servicelb --disable traefik' \
-  --k3s-version v1.20.2+k3s1
+  --k3s-version v1.22.4+k3s1
 ```
 
 ## Add second controlplane node
@@ -42,7 +42,7 @@ k3sup join \
   --server-ip 192.168.0.1 \
   --server \
   --k3s-extra-args '--disable servicelb --disable traefik' \
-  --k3s-version v1.20.2+k3s1
+  --k3s-version v1.22.4+k3s1
 ```
 
 ## Add third controlplane node
@@ -54,12 +54,12 @@ k3sup join \
   --server-ip 192.168.0.1 \
   --server \
   --k3s-extra-args '--disable servicelb --disable traefik' \
-  --k3s-version v1.20.2+k3s1
+  --k3s-version v1.22.4+k3s1
 ```
 
 ## Add worker node
 ```
-k3sup join --ip 192.168.0.99 --server-ip 192.168.0.1 --user ubuntu --k3s-version v1.20.2+k3s1
+k3sup join --ip 192.168.0.99 --server-ip 192.168.0.1 --user ubuntu --k3s-version v1.22.4+k3s1
 ```
 
 ## Get Kubeconfig
